@@ -84,3 +84,22 @@ color: #99e265;
   z-index:3;
 	transform: rotateY(180deg);
 }
+
+#name {
+  font-size:65px;
+  font-family: 'Cookie';
+  height: 75px;
+  color: #4a5571;
+  text-align: center;
+  margin-top: 270px;
+  padding-left: 25px;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Life Savers';
+  font-size: 25px;
+  color: #4a5571;
+  padding: 10px 0px 15px 0px;
+  margin:-20px;
+}
