@@ -124,4 +124,11 @@ a {
   border-style: solid;
   border-color:filter: hue-rotate(250deg);
   border-radius: 50%;
-  
+}
+
+  #aboutMe {
+    text-align: justify;
+    font-size: 25px;
+    padding: -10px 20px 0px 20px;
+    font-family: "Life Savers";
+  }
