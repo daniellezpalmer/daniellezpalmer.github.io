@@ -25,3 +25,20 @@ color: #99e265;
   color: white;
   text-decoration: underline;
 }
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logo {
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+}
+
+#logo-back {
+  /*margin-top: 30px;*/
+  height: 100px;
+  width: 100px;
+}
