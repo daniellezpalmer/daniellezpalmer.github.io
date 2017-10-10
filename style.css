@@ -151,3 +151,25 @@ a {
   .ports:hover {
     border-color: #99e265;
   }
+
+  #resume {
+    font-family: "Life Savers";
+    text-align: justify;
+    font-size: 25px;
+  }
+
+  .border {
+    border-color:#4a5571;
+    border-style: solid;
+    border-width: 2px;
+    height: 485px;
+  }
+
+  .border:hover {
+    border-color: #99e265;
+  }
+
+  #resumee img {
+  height:100px;
+  width:180px
+  }
