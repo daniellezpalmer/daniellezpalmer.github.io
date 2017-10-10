@@ -173,3 +173,24 @@ a {
   height:100px;
   width:180px
   }
+
+  #contact {
+    color: #4a5571;
+    font-size:20px;
+    text-align: justify;
+    font-family: "Life Savers";
+  }
+
+  #contactMe {
+    text-align: center;
+  }
+
+  .emailLink {
+    font-family:"Life Savers";
+    font-size: 20px;
+  }
+
+  .emailLink:hover {
+    color:#99e265;
+    text-decoration: underline;
+  }
