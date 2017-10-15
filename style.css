@@ -286,10 +286,16 @@ footer {
 
 /*DESKTOP VIEW*/
 
+body {
+  width:100%;
+  margin-bottom:40px;
+  display:flex;
+  font-family: 'Life Savers';
+}
+
 #nav {
   font-size: 18px;
   text-align: center;
-  font-family: 'Life Savers';
   position: fixed;
   top: 0;
   width: 100%;
@@ -309,9 +315,96 @@ footer {
   text-decoration: underline;
 }
 
-.header {
+#logo {
+  margin-top: 40px;
+  height: 100px;
+  width: 100px;
+}
+
+#logo-back {
+  height: 100px;
+  width: 100px;
+}
+
+#nts {
+  max-width:380px;
+}
+
+#name {
+  font-size: 65px;
+  font-family: 'Cookie';
+  height: 75px;
+  color: #4a5571;
+  text-align: center;
+  margin-top: 270px;
+  padding-left: 25px;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Life Savers';
+  font-size: 25px;
+  color: #4a5571;
+  padding: 10px 0px 15px 0px;
+  margin: -20px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a5571;
+}
+
+.links {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 30px 0px 20px;
+}
+
+.links img {
+  filter: hue-rotate(250deg);
+}
+
+.links img:hover {
+  filter: hue-rotate(0deg);
+  border-style: solid;
+  border-color: filter: hue-rotate(250deg);
+  border-radius: 50%;
+}
+
+#about {
+  max-width: 800px;
+  width:100%;
+  text-align: justify;
+  margin-left: 425px;
+  margin-top:-525px;
+  font-size:25px;
+}
+
+#hello {
+  font-size:30px;
+}
+
+#resume {
+  font-family: "Life Savers";
+  text-align: justify;
+  font-size: 25px;
+}
+
+.border {
+  border-color: #4a5571;
+  border-style: solid;
+  border-width: 2px;
+  height: 492px;
+  width:380px;
+}
+
+.border:hover {
+  border-color: #99e265;
+}
+
+#contactMe {
+  text-align: center;
+  font-size:20px;
 }
 
 footer {
@@ -319,7 +412,6 @@ footer {
   color: #99e265;
   padding: 10px 20px 10px 20px;
   margin: 40px -20px 0px -20px;
-  font-family: "Life Savers";
   font-size: 15px;
   position: fixed;
   width: 100%;
