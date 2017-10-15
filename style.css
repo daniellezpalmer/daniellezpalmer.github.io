@@ -369,6 +369,7 @@ a {
   border-style: solid;
   border-color: filter: hue-rotate(250deg);
   border-radius: 50%;
+  border-width: .5px;
 }
 
 #about {
@@ -383,28 +384,47 @@ a {
 #hello {
   font-size:30px;
 }
-
-#resume {
-  font-family: "Life Savers";
-  text-align: justify;
-  font-size: 25px;
+.portfolio {
+  display:flex;
 }
 
-.border {
+.ports {
+  border-style: solid;
+  border-color: #4a5571;
+  border-width: 2px;
+  height: 376px;
+  width: 376px;
+  margin: 15px 5px 15px 10px;
+}
+
+.ports:hover {
+  border-color: #99e265;
+}
+
+.resume {
   border-color: #4a5571;
   border-style: solid;
   border-width: 2px;
-  height: 492px;
-  width:380px;
+  float:right;
+  margin-top:-790px;
+
 }
 
-.border:hover {
+.resume:hover {
   border-color: #99e265;
 }
 
 #contactMe {
   text-align: center;
-  font-size:20px;
+  font-size:30px;
+  float: right;
+  margin-top: -180px;
+  margin-right:5px;
+}
+
+.emailLink:hover {
+  color: #99e265;
+  text-decoration: underline;
 }
 
 footer {
