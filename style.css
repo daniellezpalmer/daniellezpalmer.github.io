@@ -395,7 +395,7 @@ body {
 }
 
 #logo {
-  margin-top: 40px;
+  margin-top: 50px;
   height: 100px;
   width: 100px;
 }
@@ -415,7 +415,7 @@ body {
   height: 75px;
   color: #4a5571;
   text-align: center;
-  margin-top: 270px;
+  margin-top: 300px;
   padding-left: 25px;
 }
 
@@ -456,7 +456,7 @@ a {
   width:100%;
   text-align: justify;
   margin-left: 425px;
-  margin-top:-525px;
+  margin-top:-555px;
   font-size:25px;
 }
 
@@ -497,7 +497,7 @@ a {
   text-align: center;
   font-size:30px;
   line-height: 1.2;
-  margin-top: 60px;
+  margin-top: 55px;
   margin-left: 840px;
 }
 
