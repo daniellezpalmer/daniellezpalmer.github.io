@@ -14,8 +14,8 @@ Ongoing project to craft my personal website as a web developer.
 - [x] Mailto: email link in contact section
 - [x] Link SS icons to SS pages
 - [ ] Media queries
-- [ ] Hover effects on portfolio pieces to add description
-- [ ] Buttons - code and live version of portfolio pieces
+- [x] Hover effects on portfolio pieces to add description
+- [x] Buttons - code and live version of portfolio pieces
 - [ ] Deploy
 
 ## Challenges
